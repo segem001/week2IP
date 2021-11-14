@@ -57,3 +57,16 @@ function feedback (){
         // userdetails.style.display="block";
     
     }else if(femaleRadio.checked){
+        userdetails.value= `Your Akan name is ${maleNames[outputs]} and was born on ${Days[outputs]}`;
+    userdetails.style.display="block";
+    }else if(!(maleRadio.checked || femaleRadio.checked)){
+        alert("Choose your gender")
+    }
+       
+    
+        return false;
+    
+    
+    
+    
+    }
