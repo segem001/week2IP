@@ -5,8 +5,14 @@ function feedback (){
     let Days=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
     // Ghanian_Generator function
 
-    let date_number=document.getElementById('date');
+    let date_number=document.getElementById('date'); 
+    if (date_number.value<=0 || date_number.value>31){
+      alert("Invalid Date Number")
+    }
     let month_number=document.getElementById('month');
+    if (month_number.value<=0 || month_number.value>12){
+        alert("Invalid Month Number")
+      }
     let year_number=document.getElementById('year'); 
     
      // //calculations
