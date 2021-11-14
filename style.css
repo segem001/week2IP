@@ -98,3 +98,17 @@ button:hover {
     font-size: 30px;
     /* background-color: lightblue; */
     }
+    form{
+        width:50%;
+        margin-left:450px;
+        background-color: lightblue;
+        margin-top: -550px;
+        padding-top: 10px;
+    }
+    #date,#month,#year{
+        width:98%;
+      margin-left: 8px;
+        height: 50px;
+        border:1px solid black
+        
+    }
