@@ -56,3 +56,24 @@ button:hover {
 #Ghanian_Name1{
     font-family: 'Times New Roman', Times, serif;
 }
+#Ghanian_Name1 ul li{
+    list-style: none;
+    }
+    .Ghanian_Name2 ul li{
+        list-style: none;
+    }
+     button {
+        color: green;
+        padding: 15px 32px;
+     
+        text-decoration: none;
+        background-color: #FAA916;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 50px;
+        float: right;
+        margin-top:-570px;
+        margin-right: 650px;
+      } 
+    
