@@ -76,4 +76,18 @@ button:hover {
         margin-top:-570px;
         margin-right: 650px;
       } 
+      button:hover{
+        background-color:yellow;
+        color: green;
+  
+    }
     
+    .every{
+      width:50%;
+      /* background-color:lightblue; */
+      margin-top:-500px;
+   }
+   input{
+  margin-top: 10px; 
+  }
+   
