@@ -23,3 +23,20 @@ function feedback (){
      // alert(weekDay)
      
      //radio values
+     let maleRadio=document.getElementById("males");
+    let femaleRadio=document.getElementById("females");
+    
+    //looping 
+    
+    let outputs="";
+    
+    if(weekDay==0){
+    
+        outputs=6;
+    
+    }else{
+    
+        outputs=weekDay-1;
+    
+    }
+    
