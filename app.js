@@ -39,4 +39,21 @@ function feedback (){
         outputs=weekDay-1;
     
     }
+    //feedback function
     
+   
+        // formDisplay.style.display="block";
+        // alert(YY)
+        // alert(year_number.value)
+        let userdetails=document.getElementById("results");
+     
+    if(maleRadio.checked){
+
+        userdetails.value= `Your Akan name is ${femaleNames[outputs]} and was born on ${Days[outputs]}`;
+
+        // userdetails.innerHTML= "Your Akan name is "+maleNames[outputs] + "and was born on" +;
+        // userdetails.innerHTML= "Your Akan name is";
+        // userdetails.value= `Your Akan name is ${maleNames[outputs]} `;
+        // userdetails.style.display="block";
+    
+    }else if(femaleRadio.checked){
