@@ -90,4 +90,11 @@ button:hover {
    input{
   margin-top: 10px; 
   }
-   
+  #results{
+    width:100%;
+    color: black;
+    height: 100px;
+    /* display: none; */
+    font-size: 30px;
+    /* background-color: lightblue; */
+    }
