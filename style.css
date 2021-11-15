@@ -10,7 +10,7 @@ body {
     position: relative;
     z-index: 1;
     color: white;
-    margin: -20px;
+    /* margin: -20px; */
 }
 /* body::after {
     position: absolute;
@@ -62,7 +62,7 @@ button:hover {
     .Ghanian_Name2 ul li{
         list-style: none;
     }
-     button {
+     /* button {
         color: green;
         padding: 15px 32px;
      
@@ -75,18 +75,17 @@ button:hover {
         float: right;
         margin-top:-570px;
         margin-right: 650px;
-      } 
+      }  */
       button:hover{
         background-color:yellow;
         color: green;
   
     }
     
-    .every{
+    /* .every{
       width:50%;
-      /* background-color:lightblue; */
       margin-top:-500px;
-   }
+   /* } * */
    input{
   margin-top: 10px; 
   }
@@ -111,4 +110,16 @@ button:hover {
         height: 50px;
         border:1px solid black
         
+    }
+    .footer{
+        text-align: center;
+        width: 100%;
+        margin-top: 100px;
+        background-color:#16273E;
+        height: 40px;
+
+    }
+    h4 {
+        padding-top: 10px;
+        font-size: 25px;
     }
